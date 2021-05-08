@@ -19,6 +19,10 @@ H1 {
     color: #ffffff;
 }
 
+.myTimetable THEAD TR TH {
+    height: 50;
+}
+
 .myTimetable TBODY {
     background-color: #aaaaff;
 }
