@@ -23,8 +23,16 @@ H1 {
     height: 50;
 }
 
+.faculty THEAD TR TH {
+    height: 50;
+}
+
 .myTimetable TBODY {
-    background-color: #aaaaff;
+    background-color: #aaebff;
+}
+
+.faculty TBODY {
+    background-color: #ffdaaa;
 }
 
 .myTimetable TD {
@@ -33,9 +41,21 @@ H1 {
     text-align: center;
 }
 
+.faculty TD {
+    border: 1px solid black;
+    padding: 6px;
+    text-align: left;
+}
+
 .myTimetable TBODY TR TD:first-child {
     background-color: #ff0066;
     font-weight: bold;
+}
+
+.faculty TBODY TR TD:first-child {
+    background-color: #f183af;
+    font-weight: bold;
+    text-align: left;
 }
 
 .break,
@@ -59,12 +79,12 @@ H1 {
     /* Green */
     border: none;
     color: white;
-    padding: 8px 28px;
+    padding: 4px 14px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
+    font-size: 10px;
+    margin: 2px 1px;
     transition-duration: 0.4s;
     cursor: pointer;
 }
@@ -83,4 +103,15 @@ H1 {
 .footerhead {
     background-color: rgb(233, 24, 24);
     text-align: center
+}
+
+caption {
+    border: 0;
+    clip: rect(0, 0, 0, 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
 }
